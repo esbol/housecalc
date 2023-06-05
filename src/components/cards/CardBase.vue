@@ -1,13 +1,12 @@
 <template>
     <div class="container-card">
-        <div class="title">Основные параметры</div>
+        <div class="title">Basement</div>
         <div class="row">
             <div class="prop-name">Площадь</div>
             <div class="prop-value">
                 <div class="prop-input" @click="showPopupSquare">{{ state.totalSquare.toString().replace('.', ',') }} м2</div>
             </div>
         </div>
-      
       
     </div>
 
