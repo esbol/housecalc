@@ -1,5 +1,6 @@
 <template>
     <div class="container">
+        <div class="breaker"></div>
         <CardContainer >
            <CardMain/>
         </CardContainer>
@@ -31,7 +32,7 @@ import PopupContainer from './cards/Popups/PopupContainer.vue';
 }
 .breaker{
     width: 100%;
-    height: 50px;
+    height: 40px;
     background-color: #e6e6e6;
 }
 
